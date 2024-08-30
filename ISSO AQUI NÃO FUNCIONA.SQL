@@ -67,4 +67,3 @@ GROUP BY p.id;
 SELECT p.poema
 FROM poemas p
 JOIN palavras_chave pc ON p.id = pc.poema_id
-WHERE pc.palavra = 'gato';
