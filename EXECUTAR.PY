@@ -12,4 +12,4 @@ resultados = cursor.fetchall()
 for row in resultados:
     print(f"ID: {row[0]}, Poema: {row[1]}, Palavras-Chave: {row[2]}")
 
-conexao.close()
+conexao.close() 
