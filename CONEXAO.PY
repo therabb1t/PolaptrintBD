@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Função para extrair palavras-chave
+
 def extrair_palavras_chave(descricao):
     stop_words = set(stopwords.words('portuguese'))  # Defina a linguagem desejada
     palavras = word_tokenize(descricao)
